@@ -1,0 +1,154 @@
+{
+  "tests": [
+    {
+      "name": "test_dataset1",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_features_exaction_1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "test_dataset2",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_features_exaction_2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_dataset3",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_features_exaction_2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "test_new_features_res",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_new_features_res",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_listwise_res",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_listwise_res",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_pairwise_spedup_res",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_pairwise_spedup_res",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_pointwise_res",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_pointwise_res",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_neural_module",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_neural_module",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "test_train_pointwise",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_train_pointwise",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_train_pairwise_spedup",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_train_pairwise_spedup",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_train_listwise",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_train_listwise",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },    
+    {
+      "name": "test_pointwise_loss",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_pointwise_loss",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },    
+    {
+      "name": "test_pairwise_loss",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_pairwise_loss",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7
+    },
+    {
+      "name": "test_pairwise_spedup",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_mean_lambda",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 18
+    },
+    {
+      "name": "test_listwise_loss",
+      "setup": "",
+      "run": "python -m pytest hidden_tests/hid.py -k test_listwise_loss",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 18
+    }
+  ]
+}
